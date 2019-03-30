@@ -24,6 +24,7 @@ Imports:
     sf,
     rgeos,
     rgdal,
-    maptools
+    maptools, 
+    raster
 Encoding: UTF-8
 RoxygenNote: 6.1.1

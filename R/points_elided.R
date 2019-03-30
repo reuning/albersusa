@@ -31,8 +31,7 @@ points_elided <- function(sp) {
   #  from the original points
   ak_l <- sp::over(sp, ak_poly)
   ak <- sp[!is.na(ak_l),]
-
-  # sp <- sp[is.na(ak_l),]
+  sp <- sp[is.na(ak_l),]
 
   if (length(ak)) {
     # Elide the points, the key here is to set "bb" to what the original
